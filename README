@@ -1,0 +1,12 @@
+ruby(mail受け取りサーバー)とバッチのwebサービス化の実験コードです。
+
+1. リアルタイム処理サーバー
+FastAPIのサーバーです
+$ pip install fastapi uvicorn 
+$ ubicorn main:app --reload
+2. rubyプログラム
+リクエストを行うrubyプログラムサンプルです   
+1を起動した状態で
+$ time ruby kick_sample.rb
+
+以上です
